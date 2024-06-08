@@ -1,0 +1,33 @@
+NET HA(0)	LOC="P31"	 ;
+NET HA(1)	LOC="P29"	 ;
+NET HA(2)	LOC="P27"	 ;
+NET HA(3)	LOC="P32"	 ;
+NET HA(4)	LOC="P33"	 ;
+NET HA(5)	LOC="P34"	 ;
+NET HA(6)	LOC="P36"	 ;
+NET HA(7)	LOC="P40"	 ;
+
+NET HD(0)	LOC="P37"	 ;
+NET HD(1)	LOC="P30"	 ;
+NET HD(2)	LOC="P28"	 ;
+NET HD(3)	LOC="P23"	 ;
+
+NET HCS(0)	LOC="P38"	 ;
+NET HCS(1)	LOC="P39"	 ;
+
+NET VA(0)	LOC="P03"	 ;
+NET VA(1)	LOC="P02"	 ;
+NET VA(2)	LOC="P01"	 ;
+NET VA(3)	LOC="P06"	 ;
+NET VA(4)	LOC="P08"	 ;
+NET VA(5)	LOC="P13"	 ;
+NET VA(6)	LOC="P14"	 ;
+NET VA(7)	LOC="P12"	 ;
+
+NET VD(0)	LOC="P44"	 ;
+NET VD(1)	LOC="P43"	 ;
+NET VD(2)	LOC="P42"	 ;
+NET VD(3)	LOC="P41"	 ;
+
+NET VCS(0)	LOC="P05"	 ;
+NET VCS(1)	LOC="P07"	 ;
