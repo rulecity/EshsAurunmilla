@@ -1,0 +1,45 @@
+Esh's Aurunmilla Test ROM Program v5
+Written by Matt Ownby, Nov 2023
+------------------------------------
+
+I wrote this test ROM program in order to rapidly test reproduction Esh PCBs.
+
+It tests almost everything on the PCB and presents the results on the screen.
+
+The ROM test tests for the presence of a specific F8 Esh ROM that has the
+ following MD5:
+
+98ae491f23972416ef4edf5ae323a6a7  f8_is2.bin
+
+TO ASSEMBLE:
+------------
+
+From ubuntu/bash:
+
+$ sudo apt install z80asm m4
+$ m4 esh_test.m4 > esh_test.asm
+$ z80asm esh_test.asm -o h8_is1.bin
+
+
+HOW TO USE:
+-----------
+
+- If you see "BAD RAM", then the CPU cannot read/write reliably to the RAM at B8.
+
+- If the F8 ROM test fails, then CPU cannot confirm that the ROM shown above is installed at F8.
+
+- If the strobe test fails, CPU is not getting status strobes from the LD-V1000 laserdisc player.  Check F2 and L7.
+
+- If the LDP I/O test fails, CPU is not getting expected results from the LD-V1000 laserdisc player when trying to search to a specific frame. Check E1, F1 and F2.
+
+- If the color palette and graphics shown at the top of the screen are unexpected, the color PROM and/or graphics EPROMs may have problems.
+
+- If the background shown (either blue, black, or disc) is different from what the text is showing should be displyed, there may be a problem with the color PROM or H1.
+
+- If you do not see "1X 2X 4X" text actively blinking, there may be a problem with H1.
+
+- If you do not hear a beep when holding down the action button, there may be a problem with H1 or E2 or you do not have audio cable connected.
+
+- If not all inputs are showing up when you press them on the control panel, there may be a problem with A2, B2, or C2.
+
+- If the lamps indicated do not light up, there may be a problem with D2 or D3.
