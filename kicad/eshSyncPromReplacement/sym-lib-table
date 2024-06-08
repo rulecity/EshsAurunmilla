@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name esh)(type Legacy)(uri ${KIPRJMOD}/../esh/symbols/esh.lib)(options "")(descr ""))
+)
