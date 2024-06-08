@@ -1,0 +1,1472 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 10
+Title "Esh's Aurunmilla"
+Date "2021-03-22"
+Rev "3"
+Comp "RuleCity LLC"
+Comment1 "Reverse engineered by Matt Ownby with help from Warren Ondras"
+Comment2 "Original PCB supplied by Antonio Nati"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 1400 2550 0    50   ~ 0
+A11
+Text Label 1400 2650 0    50   ~ 0
+A12
+Text Label 1400 2750 0    50   ~ 0
+D0
+Text Label 1400 2850 0    50   ~ 0
+D1
+Text Label 1400 2950 0    50   ~ 0
+D2
+Text Label 1400 3050 0    50   ~ 0
+D3
+Text Label 1400 3150 0    50   ~ 0
+D4
+Text Label 1400 3250 0    50   ~ 0
+D5
+Text Label 1400 3350 0    50   ~ 0
+D6
+Text Label 1400 3450 0    50   ~ 0
+D7
+Text Label 1400 3550 0    50   ~ 0
+~RD
+Text Label 1400 3650 0    50   ~ 0
+~WR
+Text Label 5000 1350 0    50   ~ 0
+A0
+Text Label 5000 1450 0    50   ~ 0
+A1
+Text Label 5000 1550 0    50   ~ 0
+A2
+Text Label 5000 1650 0    50   ~ 0
+A3
+Text Label 5000 1750 0    50   ~ 0
+A4
+Text Label 5000 1850 0    50   ~ 0
+A5
+Text Label 5000 1950 0    50   ~ 0
+A6
+Text Label 5000 2050 0    50   ~ 0
+A7
+Text Label 5000 2150 0    50   ~ 0
+A8
+Text Label 5000 2250 0    50   ~ 0
+A9
+Text Label 5000 2350 0    50   ~ 0
+A10
+Text Label 5000 2450 0    50   ~ 0
+A11
+Text Label 5000 2550 0    50   ~ 0
+A12
+Text Label 5000 2650 0    50   ~ 0
+D0
+Text Label 5000 2750 0    50   ~ 0
+D1
+Text Label 5000 2850 0    50   ~ 0
+D2
+Text Label 5000 2950 0    50   ~ 0
+D3
+Text Label 5000 3050 0    50   ~ 0
+D4
+Text Label 5000 3150 0    50   ~ 0
+D5
+Text Label 5000 3250 0    50   ~ 0
+D6
+Text Label 5000 3350 0    50   ~ 0
+D7
+Text Label 5000 3450 0    50   ~ 0
+~WR
+Text Label 5000 3550 0    50   ~ 0
+~RD
+Text Label 5000 3650 0    50   ~ 0
+~ROM_H8
+Text Label 5000 3750 0    50   ~ 0
+~ROM_F8
+Text Label 5000 3850 0    50   ~ 0
+~ROM_E8
+Text Label 5000 3950 0    50   ~ 0
+~ROM_D8
+Text Label 5000 4050 0    50   ~ 0
+~ROM_C8
+Text Label 5000 4150 0    50   ~ 0
+~RAM_B8
+$Sheet
+S 6350 1350 700  200 
+U 5F28DC30
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+Text Label 3700 1400 0    50   ~ 0
+VA5
+Text Label 3700 1500 0    50   ~ 0
+VA6
+Text Label 1400 4950 0    50   ~ 0
+VA5
+Text Label 1400 5050 0    50   ~ 0
+VA6
+Text Label 3700 1600 0    50   ~ 0
+~RST_V_CNTRS
+Text Label 3700 1700 0    50   ~ 0
+CLK_7_8kHz
+Text Label 3700 1800 0    50   ~ 0
+VA7
+Text Label 3700 1900 0    50   ~ 0
+VA4
+Text Label 3700 2000 0    50   ~ 0
+VA3
+Text Label 3700 2100 0    50   ~ 0
+VA2
+Text Label 3700 2200 0    50   ~ 0
+VA1
+Text Label 3700 2300 0    50   ~ 0
+VA0
+Text Label 1400 5150 0    50   ~ 0
+VA4
+Text Label 1400 5250 0    50   ~ 0
+VA3
+Text Label 1400 5350 0    50   ~ 0
+VA2
+Text Label 1400 5450 0    50   ~ 0
+VA1
+Text Label 1400 5550 0    50   ~ 0
+VA0
+Text Label 3700 2400 0    50   ~ 0
+CLK_18_432MHz
+Text Label 1400 4550 0    50   ~ 0
+CLK_18_432MHz
+Text Label 1400 5650 0    50   ~ 0
+HA7
+Text Label 1400 5750 0    50   ~ 0
+HA6
+Text Label 1400 5850 0    50   ~ 0
+HA5
+Text Label 1400 5950 0    50   ~ 0
+HA4
+Text Label 1400 6050 0    50   ~ 0
+HA3
+Text Label 1400 6150 0    50   ~ 0
+HA2
+Text Label 1400 6250 0    50   ~ 0
+HA1
+Text Label 1400 6350 0    50   ~ 0
+HA0
+Text Label 3700 2500 0    50   ~ 0
+HA0
+Text Label 3700 2600 0    50   ~ 0
+HA1
+Text Label 3700 2700 0    50   ~ 0
+HA2
+Text Label 3700 2800 0    50   ~ 0
+HA3
+Text Label 3700 2900 0    50   ~ 0
+HA4
+Text Label 3700 3000 0    50   ~ 0
+HA5
+Text Label 3700 3100 0    50   ~ 0
+HA6
+Text Label 3700 3200 0    50   ~ 0
+HA7
+Text Label 3700 3300 0    50   ~ 0
+~DSC_CSYNC_BEGIN
+Text Label 3700 3400 0    50   ~ 0
+~DSC_VSYNC_BEGIN
+Text Label 1400 6450 0    50   ~ 0
+~DSC_CSYNC_BEGIN
+Text Label 1400 6550 0    50   ~ 0
+~DSC_VSYNC_BEGIN
+Text Label 1400 6650 0    50   ~ 0
+CVD2
+Text Label 3700 3700 0    50   ~ 0
+CVD2
+Text Label 3700 3500 0    50   ~ 0
+CVD0
+Text Label 3700 3600 0    50   ~ 0
+CVD1
+Text Label 3700 3900 0    50   ~ 0
+CHD0
+Text Label 3700 4000 0    50   ~ 0
+CHD1
+Text Label 3700 4100 0    50   ~ 0
+CHD2
+Text Label 3700 4200 0    50   ~ 0
+CHD3
+Text Label 1400 6750 0    50   ~ 0
+~CHD3
+$Sheet
+S 2850 1350 850  3900
+U 5FF09189
+F0 "timing" 50
+F1 "timing.sch" 50
+F2 "VA5" I R 3700 1400 50 
+F3 "VA6" I R 3700 1500 50 
+F4 "~RST_V_CNTRS" I R 3700 1600 50 
+F5 "CLK_7_8kHz" I R 3700 1700 50 
+F6 "VA7" I R 3700 1800 50 
+F7 "VA4" I R 3700 1900 50 
+F8 "VA3" I R 3700 2000 50 
+F9 "VA2" I R 3700 2100 50 
+F10 "VA1" I R 3700 2200 50 
+F11 "VA0" I R 3700 2300 50 
+F12 "CLK_18_432MHz" I R 3700 2400 50 
+F13 "HA0" I R 3700 2500 50 
+F14 "HA1" I R 3700 2600 50 
+F15 "HA2" I R 3700 2700 50 
+F16 "HA3" I R 3700 2800 50 
+F17 "HA4" I R 3700 2900 50 
+F18 "HA5" I R 3700 3000 50 
+F19 "HA6" I R 3700 3100 50 
+F20 "HA7" I R 3700 3200 50 
+F21 "~DSC_CSYNC_BEGIN" I R 3700 3300 50 
+F22 "~DSC_VSYNC_BEGIN" I R 3700 3400 50 
+F23 "CVD0" I R 3700 3500 50 
+F24 "CVD1" I R 3700 3600 50 
+F25 "CVD2" I R 3700 3700 50 
+F26 "CHD0" I R 3700 3900 50 
+F27 "CHD1" I R 3700 4000 50 
+F28 "CHD2" I R 3700 4100 50 
+F29 "CHD3" I R 3700 4200 50 
+F30 "~CHD3" I R 3700 4300 50 
+F31 "~CHD2" I R 3700 4400 50 
+F32 "CLK_6_144MHz" I R 3700 4500 50 
+F33 "~CLK_15_6kHz" I R 3700 4600 50 
+F34 "HIDE_LD_VIDEO" I R 3700 4700 50 
+F35 "CLK_15_6kHz" I R 3700 4800 50 
+F36 "~CSYNC_OUT" I R 3700 4900 50 
+$EndSheet
+Text Label 3700 4300 0    50   ~ 0
+~CHD3
+Text Label 1400 6850 0    50   ~ 0
+~CHD2
+Text Label 3700 4400 0    50   ~ 0
+~CHD2
+$Sheet
+S 8100 1400 1200 3000
+U 5F7FF6AC
+F0 "ldp" 50
+F1 "ldp.sch" 50
+F2 "LDP_RD_LOAD" I R 9300 2450 50 
+F3 "BD0" I R 9300 1550 50 
+F4 "BD1" I R 9300 1650 50 
+F5 "BD2" I R 9300 1750 50 
+F6 "BD3" I R 9300 1850 50 
+F7 "BD4" I R 9300 1950 50 
+F8 "BD5" I R 9300 2050 50 
+F9 "BD6" I R 9300 2150 50 
+F10 "BD7" I R 9300 2250 50 
+F11 "~LDP_BUF_RD" I R 9300 2350 50 
+F12 "~RST" I R 9300 2550 50 
+F13 "~F4_PORT_NRD" I R 9300 2750 50 
+F14 "~BWR" I R 9300 2850 50 
+$EndSheet
+Text Label 1400 2450 0    50   ~ 0
+A10
+Text Label 1400 2350 0    50   ~ 0
+A9
+Text Label 1400 2250 0    50   ~ 0
+A8
+Text Label 1400 2150 0    50   ~ 0
+A7
+Text Label 1400 2050 0    50   ~ 0
+A6
+Text Label 1400 1950 0    50   ~ 0
+A5
+Text Label 1400 1850 0    50   ~ 0
+A4
+Text Label 1400 1750 0    50   ~ 0
+A3
+Text Label 1400 1650 0    50   ~ 0
+A2
+Text Label 1400 1550 0    50   ~ 0
+A1
+Text Label 1400 1450 0    50   ~ 0
+A0
+Text Label 1400 1350 0    50   ~ 0
+~RAM_B8
+Text Label 1400 1250 0    50   ~ 0
+~ROM_C8
+Text Label 1400 1150 0    50   ~ 0
+~ROM_D8
+Text Label 1400 1050 0    50   ~ 0
+~ROM_E8
+Text Label 1400 950  0    50   ~ 0
+~ROM_F8
+Text Label 1400 850  0    50   ~ 0
+~ROM_H8
+Text Label 1400 750  0    50   ~ 0
+LDP_RD_LOAD
+Text Label 1400 6950 0    50   ~ 0
+~LDP_BUF_RD
+Text Label 9300 1550 0    50   ~ 0
+BD0
+Text Label 9300 1650 0    50   ~ 0
+BD1
+Text Label 9300 1750 0    50   ~ 0
+BD2
+Text Label 9300 1850 0    50   ~ 0
+BD3
+Text Label 9300 1950 0    50   ~ 0
+BD4
+Text Label 9300 2050 0    50   ~ 0
+BD5
+Text Label 9300 2150 0    50   ~ 0
+BD6
+Text Label 9300 2250 0    50   ~ 0
+BD7
+Text Label 9300 2350 0    50   ~ 0
+~LDP_BUF_RD
+Text Label 9300 2450 0    50   ~ 0
+LDP_RD_LOAD
+Text Label 9300 2550 0    50   ~ 0
+~RST
+Text Label 9300 2750 0    50   ~ 0
+~F4_PORT_NRD
+Text Label 9300 2850 0    50   ~ 0
+~BWR
+Text Label 1400 7050 0    50   ~ 0
+LOAD_MISC
+Text Label 1400 7150 0    50   ~ 0
+~F4_PORT_NRD
+Text Label 7200 2250 0    50   ~ 0
+~F0-F3_PORT_RD
+Text Label 7200 2350 0    50   ~ 0
+BD0
+Text Label 7200 2450 0    50   ~ 0
+BD1
+Text Label 7200 2550 0    50   ~ 0
+BD2
+Text Label 7200 2650 0    50   ~ 0
+BD3
+Text Label 7200 2750 0    50   ~ 0
+BD4
+Text Label 7200 2850 0    50   ~ 0
+BD5
+Text Label 7200 2950 0    50   ~ 0
+BA1
+Text Label 7200 3050 0    50   ~ 0
+BA0
+Text Label 1400 7250 0    50   ~ 0
+~F0-F3_PORT_RD
+Text Label 1400 3750 0    50   ~ 0
+BA0
+Text Label 1400 3850 0    50   ~ 0
+BA1
+Text Label 1400 3950 0    50   ~ 0
+BA2
+Text Label 1400 4050 0    50   ~ 0
+BA3
+Text Label 1400 4150 0    50   ~ 0
+BA4
+Text Label 1400 4250 0    50   ~ 0
+BA5
+Text Label 1400 4350 0    50   ~ 0
+BA6
+Text Label 1400 4450 0    50   ~ 0
+BA7
+Text Label 1400 7350 0    50   ~ 0
+BD0
+Text Label 1400 7450 0    50   ~ 0
+BD1
+Text Label 1400 7550 0    50   ~ 0
+BD2
+Text Label 1400 7650 0    50   ~ 0
+BD3
+Text Label 1400 7750 0    50   ~ 0
+BD4
+Text Label 1400 7850 0    50   ~ 0
+BD5
+Text Label 1400 7950 0    50   ~ 0
+BD6
+Text Label 1400 8050 0    50   ~ 0
+BD7
+Text Label 1400 8150 0    50   ~ 0
+CLK_6_144MHz
+Text Label 3700 4500 0    50   ~ 0
+CLK_6_144MHz
+Text Label 3700 4600 0    50   ~ 0
+~CLK_15_6kHz
+Text Label 1400 4650 0    50   ~ 0
+~CLK_15_6kHz
+$Sheet
+S 10350 1450 1200 3150
+U 5F7F34EA
+F0 "misc" 50
+F1 "misc.sch" 50
+F2 "BA0" I R 11550 1550 50 
+F3 "BA1" I R 11550 1650 50 
+F4 "BA2" I R 11550 1750 50 
+F5 "~F8-FF_PORT_WR" I R 11550 1850 50 
+F6 "BD0" I R 11550 1950 50 
+F7 "~RST" I R 11550 2050 50 
+F8 "~CLR_NMI" I R 11550 2150 50 
+F9 "~CLR_INT" I R 11550 2250 50 
+F10 "VA3" I R 11550 2350 50 
+F11 "IN0_RGB_A8" I R 11550 2450 50 
+F12 "IN1_RGB_A8" I R 11550 2550 50 
+F13 "IN2_RGB_A8" I R 11550 2650 50 
+F14 "IN3_RGB_A8" I R 11550 2750 50 
+F15 "HIDE_LD_VID_PAL1" I R 11550 2850 50 
+F16 "BD1" I R 11550 2950 50 
+F17 "BD2" I R 11550 3050 50 
+F18 "BD3" I R 11550 3150 50 
+F19 "BD4" I R 11550 3250 50 
+F20 "BD5" I R 11550 3350 50 
+F21 "BD6" I R 11550 3450 50 
+F22 "BD7" I R 11550 3550 50 
+F23 "LOAD_MISC" I R 11550 3650 50 
+F24 "HIDE_LD_VID_PAL0" I R 11550 3750 50 
+F25 "~LAMP_START2" I R 11550 3850 50 
+F26 "~LAMP_START1" I R 11550 3950 50 
+F27 "~LAMP_JOYSTICK" I R 11550 4050 50 
+F28 "~LAMP_ACTION" I R 11550 4150 50 
+F29 "12V" I R 11550 4250 50 
+F30 "D2_P15" I R 11550 4350 50 
+F31 "D2_P16" I R 11550 4450 50 
+$EndSheet
+Text Label 11550 1550 0    50   ~ 0
+BA0
+Text Label 11550 1650 0    50   ~ 0
+BA1
+Text Label 11550 1750 0    50   ~ 0
+BA2
+Text Label 11550 1850 0    50   ~ 0
+~F8-FF_PORT_WR
+Text Label 11550 1950 0    50   ~ 0
+BD0
+Text Label 11550 2050 0    50   ~ 0
+~RST
+Text Label 11550 2150 0    50   ~ 0
+~CLR_NMI
+Text Label 11550 2250 0    50   ~ 0
+~CLR_INT
+Text Label 1400 8250 0    50   ~ 0
+~F8-FF_PORT_WR
+Text Label 1400 8350 0    50   ~ 0
+~CLR_NMI
+Text Label 1400 8450 0    50   ~ 0
+~CLR_INT
+$Sheet
+S 650  700  750  10300
+U 5F295CE6
+F0 "cpu" 50
+F1 "cpu.sch" 50
+F2 "LDP_RD_LOAD" I R 1400 750 50 
+F3 "~ROM_H8" I R 1400 850 50 
+F4 "~ROM_C8" I R 1400 1250 50 
+F5 "~ROM_F8" I R 1400 950 50 
+F6 "~ROM_E8" I R 1400 1050 50 
+F7 "~ROM_D8" I R 1400 1150 50 
+F8 "~RAM_B8" I R 1400 1350 50 
+F9 "A0" I R 1400 1450 50 
+F10 "A1" I R 1400 1550 50 
+F11 "A2" I R 1400 1650 50 
+F12 "A3" I R 1400 1750 50 
+F13 "A4" I R 1400 1850 50 
+F14 "A5" I R 1400 1950 50 
+F15 "A6" I R 1400 2050 50 
+F16 "A7" I R 1400 2150 50 
+F17 "A8" I R 1400 2250 50 
+F18 "A9" I R 1400 2350 50 
+F19 "A10" I R 1400 2450 50 
+F20 "A11" I R 1400 2550 50 
+F21 "A12" I R 1400 2650 50 
+F22 "D0" I R 1400 2750 50 
+F23 "D1" I R 1400 2850 50 
+F24 "D2" I R 1400 2950 50 
+F25 "D3" I R 1400 3050 50 
+F26 "D4" I R 1400 3150 50 
+F27 "D5" I R 1400 3250 50 
+F28 "D6" I R 1400 3350 50 
+F29 "D7" I R 1400 3450 50 
+F30 "~RD" I R 1400 3550 50 
+F31 "~WR" I R 1400 3650 50 
+F32 "BA0" I R 1400 3750 50 
+F33 "BA1" I R 1400 3850 50 
+F34 "BA2" I R 1400 3950 50 
+F35 "BA3" I R 1400 4050 50 
+F36 "BA4" I R 1400 4150 50 
+F37 "BA5" I R 1400 4250 50 
+F38 "BA6" I R 1400 4350 50 
+F39 "BA7" I R 1400 4450 50 
+F40 "VA5" I R 1400 4950 50 
+F41 "VA6" I R 1400 5050 50 
+F42 "VA4" I R 1400 5150 50 
+F43 "VA3" I R 1400 5250 50 
+F44 "VA2" I R 1400 5350 50 
+F45 "VA1" I R 1400 5450 50 
+F46 "VA0" I R 1400 5550 50 
+F47 "CLK_18" I R 1400 4550 50 
+F48 "HA7" I R 1400 5650 50 
+F49 "HA6" I R 1400 5750 50 
+F50 "HA5" I R 1400 5850 50 
+F51 "HA4" I R 1400 5950 50 
+F52 "HA3" I R 1400 6050 50 
+F53 "HA2" I R 1400 6150 50 
+F54 "HA1" I R 1400 6250 50 
+F55 "HA0" I R 1400 6350 50 
+F56 "~DSC_CSYNC_BEGIN" I R 1400 6450 50 
+F57 "~DSC_VSYNC_BEGIN" I R 1400 6550 50 
+F58 "CVD2" I R 1400 6650 50 
+F59 "~CHD3" I R 1400 6750 50 
+F60 "~CHD2" I R 1400 6850 50 
+F61 "~LDP_BUF_RD" I R 1400 6950 50 
+F62 "LOAD_MISC" I R 1400 7050 50 
+F63 "~F4_PORT_NRD" I R 1400 7150 50 
+F64 "~F0-F3_PORT_RD" I R 1400 7250 50 
+F65 "BD0" I R 1400 7350 50 
+F66 "BD1" I R 1400 7450 50 
+F67 "BD2" I R 1400 7550 50 
+F68 "BD3" I R 1400 7650 50 
+F69 "BD4" I R 1400 7750 50 
+F70 "BD5" I R 1400 7850 50 
+F71 "BD6" I R 1400 7950 50 
+F72 "BD7" I R 1400 8050 50 
+F73 "CLK_6_144MHz" I R 1400 8150 50 
+F74 "~CLK_15_6kHz" I R 1400 4650 50 
+F75 "~F8-FF_PORT_WR" I R 1400 8250 50 
+F76 "~CLR_NMI" I R 1400 8350 50 
+F77 "~CLR_INT" I R 1400 8450 50 
+F78 "~VRAM_WR" I R 1400 8550 50 
+F79 "~HA1|HA2_LONG" I R 1400 8650 50 
+F80 "~VID_DATA_BUS" I R 1400 8750 50 
+F81 "~BRD" I R 1400 8850 50 
+F82 "LOAD_TILE_IDX" I R 1400 8950 50 
+F83 "LOAD_TILE_ATTR" I R 1400 9050 50 
+F84 "~BWR" I R 1400 9150 50 
+F85 "~HIDE_LD_VIDEO" I R 1400 9250 50 
+F86 "~RGB_ENABLE" I R 1400 9350 50 
+F87 "CLK_15_6kHz" I R 1400 9450 50 
+F88 "~PIXEL_LOAD" I R 1400 9550 50 
+F89 "~DISC_CSYNC" I R 1400 9650 50 
+F90 "~DISC_VSYNC" I R 1400 9750 50 
+F91 "~CPU_ADDR_SEL" I R 1400 9850 50 
+F92 "~RST" I R 1400 9950 50 
+F93 "CVD1" I R 1400 10050 50 
+F94 "BA8" I R 1400 10150 50 
+F95 "BA9" I R 1400 10250 50 
+F96 "BA10" I R 1400 10350 50 
+F97 "RAM_PWR" I R 1400 10450 50 
+$EndSheet
+$Sheet
+S 12800 1450 2150 4500
+U 5F381689
+F0 "video" 50
+F1 "video.sch" 50
+F2 "~VRAM_WR" I R 14950 1550 50 
+F3 "~HA1|HA2_LONG" I R 14950 1650 50 
+F4 "~VID_DATA_BUS" I R 14950 1750 50 
+F5 "~BRD" I R 14950 1850 50 
+F6 "D0" I R 14950 1950 50 
+F7 "D1" I R 14950 2050 50 
+F8 "D2" I R 14950 2150 50 
+F9 "D3" I R 14950 2250 50 
+F10 "D4" I R 14950 2350 50 
+F11 "D5" I R 14950 2450 50 
+F12 "D6" I R 14950 2550 50 
+F13 "D7" I R 14950 2650 50 
+F14 "MA0" I R 14950 2750 50 
+F15 "MA1" I R 14950 2850 50 
+F16 "MA2" I R 14950 2950 50 
+F17 "MA3" I R 14950 3050 50 
+F18 "MA4" I R 14950 3150 50 
+F19 "MA5" I R 14950 3250 50 
+F20 "MA6" I R 14950 3350 50 
+F21 "MA7" I R 14950 3450 50 
+F22 "MA8" I R 14950 3550 50 
+F23 "MA9" I R 14950 3650 50 
+F24 "MA10" I R 14950 3750 50 
+F25 "VA3" I R 14950 3850 50 
+F26 "LOAD_TILE_IDX" I R 14950 3950 50 
+F27 "CLK_7_8kHz" I R 14950 4050 50 
+F28 "VA0" I R 14950 4150 50 
+F29 "VA1" I R 14950 4250 50 
+F30 "LOAD_TILE_ATTR" I R 14950 4350 50 
+F31 "IN0_RGB_A8" I R 14950 4450 50 
+F32 "IN1_RGB_A8" I R 14950 4550 50 
+F33 "IN2_RGB_A8" I R 14950 4650 50 
+F34 "IN3_RGB_A8" I R 14950 4750 50 
+F35 "HIDE_LD_VID_PAL1" I R 14950 4850 50 
+F36 "~HIDE_LD_VIDEO" I R 14950 5050 50 
+F37 "HIDE_LD_VIDEO" I R 14950 5150 50 
+F38 "HIDE_LD_VID_PAL0" I R 14950 4950 50 
+F39 "~RGB_ENABLE" I R 14950 5250 50 
+F40 "~PIXEL_LOAD" I R 14950 5350 50 
+F41 "CLK_6_144MHz" I R 14950 5450 50 
+F42 "ANALOG_RED" I R 14950 5550 50 
+F43 "ANALOG_GREEN" I R 14950 5650 50 
+F44 "ANALOG_BLUE" I R 14950 5750 50 
+F45 "SHOW_LD_VIDEO" I R 14950 5850 50 
+$EndSheet
+Text Label 1400 8550 0    50   ~ 0
+~VRAM_WR
+Text Label 1400 8650 0    50   ~ 0
+~HA1|HA2_LONG
+Text Label 1400 8750 0    50   ~ 0
+~VID_DATA_BUS
+Text Label 14950 1650 0    50   ~ 0
+~HA1|HA2_LONG
+Text Label 14950 1550 0    50   ~ 0
+~VRAM_WR
+Text Label 14950 1750 0    50   ~ 0
+~VID_DATA_BUS
+Text Label 1400 8850 0    50   ~ 0
+~BRD
+Text Label 14950 1850 0    50   ~ 0
+~BRD
+Text Label 14950 1950 0    50   ~ 0
+D0
+Text Label 14950 2050 0    50   ~ 0
+D1
+Text Label 14950 2150 0    50   ~ 0
+D2
+Text Label 14950 2250 0    50   ~ 0
+D3
+Text Label 14950 2350 0    50   ~ 0
+D4
+Text Label 14950 2450 0    50   ~ 0
+D5
+Text Label 14950 2550 0    50   ~ 0
+D6
+Text Label 14950 2650 0    50   ~ 0
+D7
+$Sheet
+S 3000 5550 850  3850
+U 5F4984A4
+F0 "addrmux" 50
+F1 "addrmux.sch" 50
+F2 "MA0" I R 3850 5600 50 
+F3 "MA1" I R 3850 5700 50 
+F4 "MA2" I R 3850 5800 50 
+F5 "MA3" I R 3850 5900 50 
+F6 "MA4" I R 3850 6000 50 
+F7 "MA5" I R 3850 6100 50 
+F8 "MA6" I R 3850 6200 50 
+F9 "MA7" I R 3850 6300 50 
+F10 "MA8" I R 3850 6400 50 
+F11 "MA9" I R 3850 6500 50 
+F12 "MA10" I R 3850 6600 50 
+F13 "BA0" I R 3850 6700 50 
+F14 "BA1" I R 3850 6800 50 
+F15 "BA2" I R 3850 6900 50 
+F16 "BA3" I R 3850 7000 50 
+F17 "BA4" I R 3850 7100 50 
+F18 "BA5" I R 3850 7200 50 
+F19 "BA6" I R 3850 7300 50 
+F20 "BA7" I R 3850 7400 50 
+F21 "BA8" I R 3850 7500 50 
+F22 "BA9" I R 3850 7600 50 
+F23 "BA10" I R 3850 7700 50 
+F24 "VA2" I R 3850 7800 50 
+F25 "VA3" I R 3850 7900 50 
+F26 "VA4" I R 3850 8000 50 
+F27 "VA5" I R 3850 8100 50 
+F28 "VA6" I R 3850 8200 50 
+F29 "HA2" I R 3850 8300 50 
+F30 "HA3" I R 3850 8400 50 
+F31 "HA4" I R 3850 8500 50 
+F32 "HA5" I R 3850 8600 50 
+F33 "HA6" I R 3850 8700 50 
+F34 "HA7" I R 3850 8800 50 
+F35 "~CPU_ADDR_SEL" I R 3850 8900 50 
+$EndSheet
+Text Label 3850 5600 0    50   ~ 0
+MA0
+Text Label 3850 5700 0    50   ~ 0
+MA1
+Text Label 3850 5800 0    50   ~ 0
+MA2
+Text Label 3850 5900 0    50   ~ 0
+MA3
+Text Label 3850 6000 0    50   ~ 0
+MA4
+Text Label 3850 6100 0    50   ~ 0
+MA5
+Text Label 3850 6200 0    50   ~ 0
+MA6
+Text Label 3850 6300 0    50   ~ 0
+MA7
+Text Label 3850 6400 0    50   ~ 0
+MA8
+Text Label 3850 6500 0    50   ~ 0
+MA9
+Text Label 3850 6600 0    50   ~ 0
+MA10
+Text Label 3850 6700 0    50   ~ 0
+BA0
+Text Label 3850 6800 0    50   ~ 0
+BA1
+Text Label 3850 6900 0    50   ~ 0
+BA2
+Text Label 3850 7000 0    50   ~ 0
+BA3
+Text Label 3850 7100 0    50   ~ 0
+BA4
+Text Label 3850 7200 0    50   ~ 0
+BA5
+Text Label 3850 7300 0    50   ~ 0
+BA6
+Text Label 3850 7400 0    50   ~ 0
+BA7
+Text Label 3850 7500 0    50   ~ 0
+BA8
+Text Label 3850 7600 0    50   ~ 0
+BA9
+Text Label 3850 7700 0    50   ~ 0
+BA10
+Text Label 3850 7800 0    50   ~ 0
+VA2
+Text Label 3850 7900 0    50   ~ 0
+VA3
+Text Label 3850 8000 0    50   ~ 0
+VA4
+Text Label 3850 8100 0    50   ~ 0
+VA5
+Text Label 3850 8200 0    50   ~ 0
+VA6
+Text Label 3850 8300 0    50   ~ 0
+HA2
+Text Label 3850 8400 0    50   ~ 0
+HA3
+Text Label 3850 8500 0    50   ~ 0
+HA4
+Text Label 3850 8600 0    50   ~ 0
+HA5
+Text Label 3850 8700 0    50   ~ 0
+HA6
+Text Label 3850 8800 0    50   ~ 0
+HA7
+Text Label 3850 8900 0    50   ~ 0
+~CPU_ADDR_SEL
+Text Label 14950 2750 0    50   ~ 0
+MA0
+Text Label 14950 2850 0    50   ~ 0
+MA1
+Text Label 14950 2950 0    50   ~ 0
+MA2
+Text Label 14950 3050 0    50   ~ 0
+MA3
+Text Label 14950 3150 0    50   ~ 0
+MA4
+Text Label 14950 3250 0    50   ~ 0
+MA5
+Text Label 14950 3350 0    50   ~ 0
+MA6
+Text Label 14950 3450 0    50   ~ 0
+MA7
+Text Label 14950 3550 0    50   ~ 0
+MA8
+Text Label 14950 3650 0    50   ~ 0
+MA9
+Text Label 14950 3750 0    50   ~ 0
+MA10
+Text Label 14950 3850 0    50   ~ 0
+VA3
+Text Label 14950 3950 0    50   ~ 0
+LOAD_TILE_IDX
+Text Label 14950 4050 0    50   ~ 0
+CLK_7_8kHz
+Text Label 14950 4150 0    50   ~ 0
+VA0
+Text Label 14950 4250 0    50   ~ 0
+VA1
+Text Label 1400 8950 0    50   ~ 0
+LOAD_TILE_IDX
+Text Label 1400 9050 0    50   ~ 0
+LOAD_TILE_ATTR
+Text Label 14950 4350 0    50   ~ 0
+LOAD_TILE_ATTR
+Text Label 14950 4450 0    50   ~ 0
+IN0_RGB_A8
+Text Label 14950 4550 0    50   ~ 0
+IN1_RGB_A8
+Text Label 14950 4650 0    50   ~ 0
+IN2_RGB_A8
+Text Label 14950 4750 0    50   ~ 0
+IN3_RGB_A8
+Text Label 14950 4850 0    50   ~ 0
+HIDE_LD_VID_PAL1
+Text Label 11550 2450 0    50   ~ 0
+IN0_RGB_A8
+Text Label 11550 2550 0    50   ~ 0
+IN1_RGB_A8
+Text Label 11550 2650 0    50   ~ 0
+IN2_RGB_A8
+Text Label 11550 2750 0    50   ~ 0
+IN3_RGB_A8
+Text Label 11550 2850 0    50   ~ 0
+HIDE_LD_VID_PAL1
+Text Label 11550 2950 0    50   ~ 0
+BD1
+Text Label 11550 3050 0    50   ~ 0
+BD2
+Text Label 11550 3150 0    50   ~ 0
+BD3
+Text Label 11550 3250 0    50   ~ 0
+BD4
+Text Label 11550 3350 0    50   ~ 0
+BD5
+Text Label 11550 3450 0    50   ~ 0
+BD6
+Text Label 11550 3550 0    50   ~ 0
+BD7
+Text Label 11550 3650 0    50   ~ 0
+LOAD_MISC
+Text Label 11550 2350 0    50   ~ 0
+VA3
+Text Label 1400 9150 0    50   ~ 0
+~BWR
+Text Label 14950 4950 0    50   ~ 0
+HIDE_LD_VID_PAL0
+Text Label 14950 5050 0    50   ~ 0
+~HIDE_LD_VIDEO
+Text Label 14950 5150 0    50   ~ 0
+HIDE_LD_VIDEO
+Text Label 11550 3750 0    50   ~ 0
+HIDE_LD_VID_PAL0
+Text Label 3700 4700 0    50   ~ 0
+HIDE_LD_VIDEO
+Text Label 1400 9250 0    50   ~ 0
+~HIDE_LD_VIDEO
+Text Label 1400 9350 0    50   ~ 0
+~RGB_ENABLE
+Text Label 1400 9450 0    50   ~ 0
+CLK_15_6kHz
+Text Label 3700 4800 0    50   ~ 0
+CLK_15_6kHz
+Text Label 14950 5250 0    50   ~ 0
+~RGB_ENABLE
+Text Label 14950 5350 0    50   ~ 0
+~PIXEL_LOAD
+Text Label 1400 9550 0    50   ~ 0
+~PIXEL_LOAD
+Text Label 14950 5450 0    50   ~ 0
+CLK_6_144MHz
+$Comp
+L esh:Esh_Edge CN100
+U 1 1 5F47A2D4
+P 8600 7250
+F 0 "CN100" H 8650 8467 50  0000 C CNN
+F 1 "Esh_Edge" H 8650 8376 50  0000 C CNN
+F 2 "esh:Esh_Edge" H 8600 7250 50  0001 C CNN
+F 3 "~" H 8600 7250 50  0001 C CNN
+	1    8600 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 6250 8000 6250
+Text Label 8000 6250 0    50   ~ 0
+GND
+Wire Wire Line
+	8400 8350 8000 8350
+Text Label 8000 8350 0    50   ~ 0
+GND
+Text Label 8900 8350 0    50   ~ 0
+GND
+Text Label 8900 6250 0    50   ~ 0
+GND
+NoConn ~ 8400 6350
+NoConn ~ 8400 8250
+NoConn ~ 8900 6350
+NoConn ~ 8900 8250
+Wire Wire Line
+	8400 6450 8350 6450
+Text Label 8000 6450 0    50   ~ 0
+VCC
+Wire Wire Line
+	8400 6550 8350 6550
+Wire Wire Line
+	8350 6550 8350 6450
+Connection ~ 8350 6450
+Wire Wire Line
+	8350 6450 8000 6450
+Wire Wire Line
+	8900 6450 8950 6450
+Text Label 9150 6450 0    50   ~ 0
+VCC
+Wire Wire Line
+	8900 6550 8950 6550
+Wire Wire Line
+	8950 6550 8950 6450
+Connection ~ 8950 6450
+Wire Wire Line
+	8950 6450 9350 6450
+NoConn ~ 8400 6650
+NoConn ~ 8900 6650
+Text Label 1400 9650 0    50   ~ 0
+~DISC_CSYNC
+Text Label 1400 9750 0    50   ~ 0
+~DISC_VSYNC
+Wire Wire Line
+	8400 8050 7750 8050
+Text Label 7750 8050 0    50   ~ 0
+~DISC_VSYNC
+Text Label 8900 7950 0    50   ~ 0
+~DISC_CSYNC
+Text Label 3700 4900 0    50   ~ 0
+~CSYNC_OUT
+Text Label 8900 7850 0    50   ~ 0
+~CSYNC_OUT
+Text Label 14950 5550 0    50   ~ 0
+ANALOG_RED
+Text Label 14950 5650 0    50   ~ 0
+ANALOG_GREEN
+Text Label 14950 5750 0    50   ~ 0
+ANALOG_BLUE
+Wire Wire Line
+	8400 7750 7750 7750
+Wire Wire Line
+	8400 7850 7750 7850
+Text Label 8900 7750 0    50   ~ 0
+ANALOG_GREEN
+Text Label 7750 7750 0    50   ~ 0
+ANALOG_RED
+Text Label 7750 7850 0    50   ~ 0
+ANALOG_BLUE
+Wire Wire Line
+	8400 8150 7750 8150
+Text Label 7750 8150 0    50   ~ 0
+12V
+Text Label 11550 3850 0    50   ~ 0
+~LAMP_START2
+Text Label 11550 3950 0    50   ~ 0
+~LAMP_START1
+Text Label 11550 4050 0    50   ~ 0
+~LAMP_JOYSTICK
+Text Label 11550 4150 0    50   ~ 0
+~LAMP_ACTION
+Text Label 11550 4250 0    50   ~ 0
+12V
+Wire Wire Line
+	8400 6850 7750 6850
+Text Label 7750 6850 0    50   ~ 0
+~LAMP_JOYSTICK
+Text Label 8900 6750 0    50   ~ 0
+~LAMP_START1
+Text Label 8900 6850 0    50   ~ 0
+~LAMP_ACTION
+Text Label 8900 8150 0    50   ~ 0
+12V
+NoConn ~ 8900 8050
+Wire Wire Line
+	8900 7650 8950 7650
+Wire Wire Line
+	8950 7650 8950 7550
+Wire Wire Line
+	8950 7550 8900 7550
+Wire Wire Line
+	8950 7550 9350 7550
+Connection ~ 8950 7550
+Text Label 9100 7550 0    50   ~ 0
+GND
+Text Label 8900 7450 0    50   ~ 0
+~SWITCH_COIN1
+Text Label 8900 7350 0    50   ~ 0
+~SWITCH_UNK3
+Text Label 8900 7150 0    50   ~ 0
+~SWITCH_RIGHT
+Text Label 8900 7250 0    50   ~ 0
+~SWITCH_ACTION
+Text Label 8900 7050 0    50   ~ 0
+~SWITCH_UP
+Text Label 8900 6950 0    50   ~ 0
+~SWITCH_UNK1
+Wire Wire Line
+	8400 7550 7750 7550
+Text Label 7750 7550 0    50   ~ 0
+~SWITCH_COIN2
+Wire Wire Line
+	8400 6950 7750 6950
+Text Label 7750 6950 0    50   ~ 0
+~SWITCH_UNK2
+Wire Wire Line
+	8400 7050 7750 7050
+Text Label 7750 7050 0    50   ~ 0
+~SWITCH_DOWN
+Wire Wire Line
+	8400 7150 7750 7150
+Text Label 7750 7150 0    50   ~ 0
+~SWITCH_LEFT
+Wire Wire Line
+	8400 7250 7750 7250
+Text Label 7750 7250 0    50   ~ 0
+~SWITCH_ACTION2
+Wire Wire Line
+	8400 7350 7750 7350
+Wire Wire Line
+	8400 7450 7750 7450
+Text Label 7750 7350 0    50   ~ 0
+~SWITCH_TEST
+Text Label 7750 7450 0    50   ~ 0
+~SWITCH_START1
+Wire Wire Line
+	8400 7650 7750 7650
+Text Label 7750 7650 0    50   ~ 0
+~SWITCH_START2
+Text Label 14950 5850 0    50   ~ 0
+SHOW_LD_VIDEO
+Wire Wire Line
+	8400 7950 7750 7950
+Text Label 7750 7950 0    50   ~ 0
+SHOW_LD_VIDEO
+Text Label 7200 3150 0    50   ~ 0
+~SWITCH_TEST
+Text Label 7200 3250 0    50   ~ 0
+~SWITCH_ACTION
+Text Label 7200 3350 0    50   ~ 0
+~SWITCH_ACTION2
+Text Label 7200 3450 0    50   ~ 0
+~SWITCH_LEFT
+Text Label 7200 3550 0    50   ~ 0
+~SWITCH_RIGHT
+Text Label 7200 3650 0    50   ~ 0
+~SWITCH_START1
+Text Label 7200 3750 0    50   ~ 0
+~SWITCH_UNK3
+Text Label 7200 3850 0    50   ~ 0
+~SWITCH_START2
+Text Label 7200 3950 0    50   ~ 0
+~SWITCH_COIN1
+Text Label 7200 4050 0    50   ~ 0
+~SWITCH_UNK1
+Text Label 7200 4150 0    50   ~ 0
+~SWITCH_COIN2
+Text Label 7200 4250 0    50   ~ 0
+~SWITCH_UNK2
+Text Label 7200 4350 0    50   ~ 0
+~SWITCH_UP
+Text Label 7200 4450 0    50   ~ 0
+~SWITCH_DOWN
+Text Label 1400 9850 0    50   ~ 0
+~CPU_ADDR_SEL
+Text Label 1400 9950 0    50   ~ 0
+~RST
+$Comp
+L Connector_Generic:Conn_02x13_Counter_Clockwise CN2
+U 1 1 5F518AD7
+P 9950 10050
+F 0 "CN2" H 10000 10867 50  0000 C CNN
+F 1 "Conn_02x13_Counter_Clockwise" H 10000 10776 50  0000 C CNN
+F 2 "esh:2x13Connector" H 9950 10050 50  0001 C CNN
+F 3 "~" H 9950 10050 50  0001 C CNN
+	1    9950 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 9550 9700 9550
+Wire Wire Line
+	9700 9550 9700 9750
+Wire Wire Line
+	9700 9750 9750 9750
+Wire Wire Line
+	9700 9750 9700 9950
+Wire Wire Line
+	9700 9950 9750 9950
+Connection ~ 9700 9750
+Wire Wire Line
+	9700 9550 9050 9550
+Connection ~ 9700 9550
+Text Label 9050 9550 0    50   ~ 0
+GND
+Wire Wire Line
+	9750 9650 9050 9650
+Text Label 9050 9650 0    50   ~ 0
+RA2_P4
+Wire Wire Line
+	9750 9850 9050 9850
+Text Label 9050 9850 0    50   ~ 0
+~SWITCH_START1
+Wire Wire Line
+	9750 10050 9050 10050
+Text Label 9050 10050 0    50   ~ 0
+D2_P16
+Wire Wire Line
+	9750 9450 9050 9450
+Text Label 9050 9450 0    50   ~ 0
+RA2_P7
+Wire Wire Line
+	9750 10150 9050 10150
+Text Label 9050 10150 0    50   ~ 0
+D2_P15
+Wire Wire Line
+	9750 10250 9050 10250
+Text Label 9050 10250 0    50   ~ 0
+~SWITCH_RIGHT
+Wire Wire Line
+	9750 10350 9050 10350
+Text Label 9050 10350 0    50   ~ 0
+~LAMP_ACTION
+Wire Wire Line
+	9750 10450 9050 10450
+Text Label 9050 10450 0    50   ~ 0
+~SWITCH_DOWN
+Wire Wire Line
+	9750 10550 9050 10550
+Text Label 9050 10550 0    50   ~ 0
+~LAMP_JOYSTICK
+Wire Wire Line
+	9750 10650 9050 10650
+Text Label 9050 10650 0    50   ~ 0
+~SWITCH_COIN2
+Text Label 10250 10650 0    50   ~ 0
+~SWITCH_COIN1
+Text Label 10250 10550 0    50   ~ 0
+~SWITCH_ACTION2
+Text Label 10250 10450 0    50   ~ 0
+~SWITCH_ACTION
+Text Label 10250 10350 0    50   ~ 0
+~SWITCH_UP
+Text Label 10250 10250 0    50   ~ 0
+~SWITCH_LEFT
+Text Label 10250 10150 0    50   ~ 0
+~LAMP_START2
+Text Label 10250 10050 0    50   ~ 0
+~LAMP_START1
+Text Label 10250 9950 0    50   ~ 0
+~SWITCH_TEST
+Text Label 10250 9850 0    50   ~ 0
+~SWITCH_START2
+Text Label 10250 9750 0    50   ~ 0
+RA1_P9
+Text Label 10250 9650 0    50   ~ 0
+RA1_P5
+Text Label 10250 9550 0    50   ~ 0
+RA3_P8
+Text Label 10250 9450 0    50   ~ 0
+RA3_P3
+Text Label 11550 4350 0    50   ~ 0
+D2_P15
+Text Label 11550 4450 0    50   ~ 0
+D2_P16
+$Comp
+L Connector_Generic:Conn_02x13_Counter_Clockwise CN6
+U 1 1 5F5E9AA7
+P 7600 10050
+F 0 "CN6" H 7650 10867 50  0000 C CNN
+F 1 "Conn_02x13_Counter_Clockwise" H 7650 10776 50  0000 C CNN
+F 2 "esh:2x13Connector" H 7600 10050 50  0001 C CNN
+F 3 "~" H 7600 10050 50  0001 C CNN
+	1    7600 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 10650 6750 10650
+Text Label 6750 10650 0    50   ~ 0
+ANALOG_RED
+Wire Wire Line
+	7400 10550 6750 10550
+Text Label 6750 10550 0    50   ~ 0
+ANALOG_BLUE
+Wire Wire Line
+	7400 10450 6750 10450
+Text Label 6750 10450 0    50   ~ 0
+SHOW_LD_VIDEO
+Wire Wire Line
+	7400 10050 6750 10050
+Text Label 6750 10050 0    50   ~ 0
+ANALOG_GREEN
+Wire Wire Line
+	7400 10150 6750 10150
+Text Label 6750 10150 0    50   ~ 0
+~CSYNC_OUT
+Wire Wire Line
+	7400 10250 6750 10250
+Text Label 6750 10250 0    50   ~ 0
+~DISC_CSYNC
+Wire Wire Line
+	7400 10350 6750 10350
+Text Label 6750 10350 0    50   ~ 0
+~DISC_VSYNC
+NoConn ~ 7400 9450
+NoConn ~ 7400 9550
+NoConn ~ 7400 9650
+NoConn ~ 7400 9750
+NoConn ~ 7400 9850
+NoConn ~ 7400 9950
+NoConn ~ 7900 10650
+NoConn ~ 7900 10550
+NoConn ~ 7900 10450
+NoConn ~ 7900 10350
+NoConn ~ 7900 10250
+NoConn ~ 7900 10150
+Wire Wire Line
+	7900 10050 8150 10050
+Wire Wire Line
+	8150 10050 8150 10150
+$Comp
+L power:GND #PWR0213
+U 1 1 5F60F139
+P 8150 10150
+F 0 "#PWR0213" H 8150 9900 50  0001 C CNN
+F 1 "GND" H 8155 9977 50  0000 C CNN
+F 2 "" H 8150 10150 50  0001 C CNN
+F 3 "" H 8150 10150 50  0001 C CNN
+	1    8150 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 9950 8150 9950
+Wire Wire Line
+	8150 9950 8150 10050
+Connection ~ 8150 10050
+Wire Wire Line
+	8150 9950 8150 9850
+Wire Wire Line
+	8150 9850 7900 9850
+Connection ~ 8150 9950
+Wire Wire Line
+	8150 9850 8150 9750
+Wire Wire Line
+	8150 9750 7900 9750
+Connection ~ 8150 9850
+Wire Wire Line
+	8150 9750 8150 9650
+Wire Wire Line
+	8150 9650 7900 9650
+Connection ~ 8150 9750
+Wire Wire Line
+	8150 9650 8150 9550
+Wire Wire Line
+	8150 9550 7900 9550
+Connection ~ 8150 9650
+Wire Wire Line
+	8150 9550 8150 9450
+Wire Wire Line
+	8150 9450 7900 9450
+Connection ~ 8150 9550
+$Comp
+L Mechanical:MountingHole HOLE1
+U 1 1 5F6B397C
+P 15300 6750
+F 0 "HOLE1" H 15400 6796 50  0000 L CNN
+F 1 "MountingHole" H 15400 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 15300 6750 50  0001 C CNN
+F 3 "~" H 15300 6750 50  0001 C CNN
+	1    15300 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HOLE2
+U 1 1 5F6C880B
+P 15300 6950
+F 0 "HOLE2" H 15400 6996 50  0000 L CNN
+F 1 "MountingHole" H 15400 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 15300 6950 50  0001 C CNN
+F 3 "~" H 15300 6950 50  0001 C CNN
+	1    15300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HOLE3
+U 1 1 5F6C889E
+P 15300 7150
+F 0 "HOLE3" H 15400 7196 50  0000 L CNN
+F 1 "MountingHole" H 15400 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 15300 7150 50  0001 C CNN
+F 3 "~" H 15300 7150 50  0001 C CNN
+	1    15300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HOLE4
+U 1 1 5F6C8914
+P 15300 7350
+F 0 "HOLE4" H 15400 7396 50  0000 L CNN
+F 1 "MountingHole" H 15400 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 15300 7350 50  0001 C CNN
+F 3 "~" H 15300 7350 50  0001 C CNN
+	1    15300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HOLE5
+U 1 1 5F6C899B
+P 15300 7550
+F 0 "HOLE5" H 15400 7596 50  0000 L CNN
+F 1 "MountingHole" H 15400 7505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 15300 7550 50  0001 C CNN
+F 3 "~" H 15300 7550 50  0001 C CNN
+	1    15300 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HOLE6
+U 1 1 5F6C8A22
+P 15300 7750
+F 0 "HOLE6" H 15400 7796 50  0000 L CNN
+F 1 "MountingHole" H 15400 7705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 15300 7750 50  0001 C CNN
+F 3 "~" H 15300 7750 50  0001 C CNN
+	1    15300 7750
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6400 2150 800  3250
+U 5F8C7F05
+F0 "input" 50
+F1 "input.sch" 50
+F2 "~F0-F3_PORT_RD" I R 7200 2250 50 
+F3 "BD0" I R 7200 2350 50 
+F4 "BD1" I R 7200 2450 50 
+F5 "BD2" I R 7200 2550 50 
+F6 "BD3" I R 7200 2650 50 
+F7 "BD4" I R 7200 2750 50 
+F8 "BD5" I R 7200 2850 50 
+F9 "BA1" I R 7200 2950 50 
+F10 "BA0" I R 7200 3050 50 
+F11 "~SWITCH_TEST" I R 7200 3150 50 
+F12 "~SWITCH_ACTION" I R 7200 3250 50 
+F13 "~SWITCH_ACTION2" I R 7200 3350 50 
+F14 "~SWITCH_LEFT" I R 7200 3450 50 
+F15 "~SWITCH_RIGHT" I R 7200 3550 50 
+F16 "~SWITCH_START1" I R 7200 3650 50 
+F17 "~SWITCH_UNK3" I R 7200 3750 50 
+F18 "~SWITCH_START2" I R 7200 3850 50 
+F19 "~SWITCH_COIN1" I R 7200 3950 50 
+F20 "~SWITCH_UNK1" I R 7200 4050 50 
+F21 "~SWITCH_COIN2" I R 7200 4150 50 
+F22 "~SWITCH_UNK2" I R 7200 4250 50 
+F23 "~SWITCH_UP" I R 7200 4350 50 
+F24 "~SWITCH_DOWN" I R 7200 4450 50 
+F25 "RA2_P7" I R 7200 4550 50 
+F26 "RA2_P4" I R 7200 4650 50 
+F27 "RA3_P3" I R 7200 4750 50 
+F28 "RA3_P8" I R 7200 4850 50 
+F29 "RA1_P5" I R 7200 4950 50 
+F30 "RA1_P9" I R 7200 5050 50 
+$EndSheet
+Text Label 7200 4550 0    50   ~ 0
+RA2_P7
+Text Label 7200 4650 0    50   ~ 0
+RA2_P4
+Text Label 7200 4750 0    50   ~ 0
+RA3_P3
+Text Label 7200 4850 0    50   ~ 0
+RA3_P8
+Text Label 7200 4950 0    50   ~ 0
+RA1_P5
+Text Label 7200 5050 0    50   ~ 0
+RA1_P9
+Text Label 1400 10050 0    50   ~ 0
+CVD1
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F845679
+P 15300 8800
+F 0 "#FLG0101" H 15300 8875 50  0001 C CNN
+F 1 "PWR_FLAG" H 15300 8973 50  0000 C CNN
+F 2 "" H 15300 8800 50  0001 C CNN
+F 3 "~" H 15300 8800 50  0001 C CNN
+	1    15300 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F845A37
+P 15800 8800
+F 0 "#FLG0102" H 15800 8875 50  0001 C CNN
+F 1 "PWR_FLAG" H 15800 8973 50  0000 C CNN
+F 2 "" H 15800 8800 50  0001 C CNN
+F 3 "~" H 15800 8800 50  0001 C CNN
+	1    15800 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0217
+U 1 1 5F845DE4
+P 15300 8850
+F 0 "#PWR0217" H 15300 8600 50  0001 C CNN
+F 1 "GND" H 15305 8677 50  0000 C CNN
+F 2 "" H 15300 8850 50  0001 C CNN
+F 3 "" H 15300 8850 50  0001 C CNN
+	1    15300 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0218
+U 1 1 5F8461F7
+P 15800 8850
+F 0 "#PWR0218" H 15800 8700 50  0001 C CNN
+F 1 "VCC" H 15815 9023 50  0000 C CNN
+F 2 "" H 15800 8850 50  0001 C CNN
+F 3 "" H 15800 8850 50  0001 C CNN
+	1    15800 8850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15800 8850 15800 8800
+Wire Wire Line
+	15300 8850 15300 8800
+Text Notes 14500 8550 0    50   ~ 0
+These power flags are needed so KiCad\nknows that power is coming\nfrom outside of this PCB.
+Text Label 1400 10150 0    50   ~ 0
+BA8
+Text Label 1400 10250 0    50   ~ 0
+BA9
+Text Label 1400 10350 0    50   ~ 0
+BA10
+$Sheet
+S 4450 1300 550  3100
+U 5F41132A
+F0 "memory" 50
+F1 "memory.sch" 50
+F2 "A0" I R 5000 1350 50 
+F3 "A1" I R 5000 1450 50 
+F4 "A2" I R 5000 1550 50 
+F5 "A3" I R 5000 1650 50 
+F6 "A4" I R 5000 1750 50 
+F7 "A5" I R 5000 1850 50 
+F8 "A6" I R 5000 1950 50 
+F9 "A7" I R 5000 2050 50 
+F10 "A8" I R 5000 2150 50 
+F11 "A9" I R 5000 2250 50 
+F12 "A10" I R 5000 2350 50 
+F13 "A11" I R 5000 2450 50 
+F14 "A12" I R 5000 2550 50 
+F15 "D0" I R 5000 2650 50 
+F16 "D1" I R 5000 2750 50 
+F17 "D2" I R 5000 2850 50 
+F18 "D3" I R 5000 2950 50 
+F19 "D4" I R 5000 3050 50 
+F20 "D5" I R 5000 3150 50 
+F21 "D6" I R 5000 3250 50 
+F22 "D7" I R 5000 3350 50 
+F23 "~WR" I R 5000 3450 50 
+F24 "~RD" I R 5000 3550 50 
+F25 "~ROM_H8" I R 5000 3650 50 
+F26 "~ROM_F8" I R 5000 3750 50 
+F27 "~ROM_E8" I R 5000 3850 50 
+F28 "~ROM_D8" I R 5000 3950 50 
+F29 "~ROM_C8" I R 5000 4050 50 
+F30 "~RAM_B8" I R 5000 4150 50 
+F31 "RAM_PWR" I R 5000 4350 50 
+$EndSheet
+Text Label 5000 4350 0    50   ~ 0
+RAM_PWR
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5F94C28D
+P 14750 8800
+F 0 "#FLG0103" H 14750 8875 50  0001 C CNN
+F 1 "PWR_FLAG" H 14750 8973 50  0000 C CNN
+F 2 "" H 14750 8800 50  0001 C CNN
+F 3 "~" H 14750 8800 50  0001 C CNN
+	1    14750 8800
+	1    0    0    -1  
+$EndComp
+Text Label 14750 8800 0    50   ~ 0
+RAM_PWR
+Text Label 1400 10450 0    50   ~ 0
+RAM_PWR
+Wire Wire Line
+	8400 6750 7750 6750
+Text Label 7750 6750 0    50   ~ 0
+~LAMP_START2
+Text Notes 7250 9100 0    50   ~ 0
+These connectors are optional.\nI included them to make it easier to verify accuracy of the PCB clone.\nThese connectors were likely used in order to test the game without using the edge connector.
+Text Notes 7750 5950 0    50   ~ 0
+This is the edge connector of the PCB.\nCaution: It is backwards from Interstellar (ie upside down).
+$EndSCHEMATC

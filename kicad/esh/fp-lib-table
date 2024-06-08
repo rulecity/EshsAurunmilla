@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name esh)(type KiCad)(uri ${KIPRJMOD}/footprints/esh.pretty)(options "")(descr ""))
+)
