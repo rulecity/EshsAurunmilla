@@ -25,6 +25,6 @@ A test ROM I wrote from scratch to test PCBs before I shipped them off to custom
 See http://www.rulecity.com/esh/
 
 # Support
-All of this stuff is unsupported!  Good luck!
+If you need help building the VHDL code, programming the CPLDs, or having PCBs made from the KiCad files, I offer commercial support: https://www.daphne-emu.com:9443/mediawiki/index.php/CommercialSupport
 
 --Matt Ownby
